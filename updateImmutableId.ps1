@@ -3,6 +3,9 @@ param(
     [bool]$Credentials = $true
 )
 
+Import-Module MSOnline
+Import-Module ActiveDirectory
+
 try{
 
     if($Credentials -eq $true){
