@@ -7,7 +7,7 @@ Occasionally when trying to sync Windows AD with an existing Microsoft 365 tenan
 [{"Key":"ObjectId","Value":["677e2ead-14e8-4e18-9b25-49d5c75472f1"]},
 {"Key":"ObjectIdInConflict","Value":["7505ed65-e7f5-4dca-9f78-2617a247f047"]},
 {"Key":"AttributeConflictName","Value":["SipProxyAddress"]},
-{"Key":"AttributeConflictValues","Value":["UserName@domain.com"]}]
+{"Key":"AttributeConflictValues","Value":["user@domain.com"]}]
 ```
 This may be due to Immutable ID mismatch. This script will generate an Immutable ID based on user data in Windows AD and assign it to the same user in Microsoft 365. The script is simple and will produce the following output:
 ```sh
